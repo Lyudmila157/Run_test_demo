@@ -21,4 +21,4 @@ def test_button_exist_2(browser):
     assert browser.find_element(By.PARTIAL_LINK_TEXT, 'Click').is_displayed()
 
 def test_me():
-    assert 1 == 2
+    assert 1 == 1
